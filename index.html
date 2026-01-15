@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1>SIMON GAME</h1>
+  <h2 id="level-title">Press A Key to Start</h2>
+<h3>How to Play</h3>
+<p>1. Press any key to start the game.</p>
+<p>2. Watch the sequence of flashing colors carefully.</p>
+<p>3. Repeat the sequence by clicking the buttons in the same order.</p>
+<p>4. Each level adds one new color to the sequence.</p>
+<p>5. If you click the wrong button, the game ends and you can restart by pressing any key.</p>
+
+<div class = "score">
+  <p id="score">Score: 0</p>
+  <p id="highScore">High Score: 0</p>
+</div>
+
+
+  <div class="container">
+
+    <!--creating a row so its easier to get 2 buttons down -->
+
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+    
+
+  </div>
+<script src="jquery-3.7.1.min.js"></script>
+<script src = "game.js" charset = "utf-8"></script>
+</body>
+
+</html>
