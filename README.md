@@ -38,6 +38,7 @@ https://hibanitt.github.io/Simon-Game/
 * **HTML5:** Structure of the game board and buttons.
 * **CSS3:** Styling, layout, and button press animations.
 * **JavaScript (ES6+):** Game logic, sequence management, and event handling.
+* **Jquery:**The JavaScript Library used.
 
 ---
 
