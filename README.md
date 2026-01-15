@@ -1,36 +1,31 @@
-Simon Game
-A web-based implementation of the classic Simon electronic memory game. This project challenges players to remember and replicate increasingly complex sequences of colors and sounds.
+# Simon Game
+This is the largest font (H1). It's used for the main title.
 
-🚀 Live Demo
-https://hibanitt.github.io/Simon-Game/
+---
 
-🎮 How to Play
-Start: Press any key on your keyboard (or click the 'Start' button) to begin.
+## 🎮 How to Play
+This is the second largest font (H2). It's great for section headers.
 
-Observe: The game will flash a color and play a corresponding sound.
+1. **Observe:** The game flashes a light.
+2. **Repeat:** Click the same button.
 
-Repeat: Click the same color button to replicate the sequence.
+---
 
-Progress: Each time you successfully complete a sequence, the game adds one more step to the pattern, making it harder.
+### ✨ Features
+This is the third size (H3). It's used for sub-sections.
 
-Game Over: If you click the wrong button, the game ends. You’ll see a "Game Over" message and can press any key to restart.
+* **Sound Effects:** Each button has a unique tone.
+* **Animations:** Smooth CSS transitions.
 
-✨ Features
-Randomized Sequences: Every game is unique, generated using random logic.
+---
 
-Progressive Difficulty: The sequence length increases with every level.
+## 🛠️ Technologies Used
+* HTML5
+* CSS3
+* JavaScript
 
-Interactive Feedback: Includes visual "flash" effects and auditory tones for each button.
+---
 
-Score Tracking: Displays your current level so you can track your progress.
-
-Responsive Design: Optimized for both desktop and mobile browsers.
-
-🛠️ Technologies Used
-HTML5: Structure of the game board and buttons.
-
-CSS3: Styling, layout, and button press animations.
-
-JavaScript (ES6+): Game logic, sequence management, and event handling.
-
-jQuery: (Optional - include if you used it for DOM manipulation).
+### 📦 Installation
+1. Clone the repo.
+2. Open `index.html`.
