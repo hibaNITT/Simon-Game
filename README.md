@@ -1,5 +1,6 @@
 # Simon Game
 
+Developed as part of my web development practice.
 A web-based implementation of the classic **Simon** electronic memory game. This project challenges players to remember and replicate increasingly complex sequences of colors and sounds.
 
 ---
